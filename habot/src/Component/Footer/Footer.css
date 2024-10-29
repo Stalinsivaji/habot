@@ -1,0 +1,82 @@
+.footer {
+    background-color: #123557;
+    color: white;
+    padding: 20px 40px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .logo {
+    width: 168.05px;
+    height: 50.9px;
+    margin-top: -25.48px;
+    margin-left: 37.95px;
+    opacity: 1;
+  }
+  
+  .center-section {
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+    gap: 100px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    gap: 15px;
+  }
+  
+  .column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 75px;
+  }
+  
+  .footer-icon {
+    width: 40px;
+    height: 40px;
+    left: 168px;
+    padding: 11px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px solid transparent;
+    opacity: 0.9;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .link {
+    margin: 5px 0; /* Space between links */
+}
+
+.link a {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.link a:hover {
+    color: orange; /* Color on hover */
+}

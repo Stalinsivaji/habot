@@ -1,0 +1,51 @@
+/* FeatureGrid.css */
+
+.FeatureContainer {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cardLightBlue {
+    flex: 1;
+    background-color: #E8FBFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .cardWhite {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .Featureicon {
+    width: 51.79px;
+    height: 75px;
+    margin-bottom: 10px;
+    opacity: 1;
+  }
+  
+  .Featuretext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: black;
+  }
+  
